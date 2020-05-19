@@ -68,12 +68,17 @@
 #d = 1
 #print(c==d)
 
+# my_cringy_landlords = ['Alfredo', 'Betty', 'Joanna', 'Mr.Summersbee']
+# #             index = [   0     ,    1   ,     2   ,        3       ]
+#
+#
+# print(my_cringy_landlords.pop(3))
+#
+# my_cringy_landlords.append('Alex')
+# print(my_cringy_landlords)
 
-my_cringy_landlords = ['Alfredo', 'Betty', 'Joanna', 'Mr.Summersbee']
-#             index = [   0     ,    1   ,     2   ,        3       ]
 
-
-print(my_cringy_landlords.pop(3))
-
-my_cringy_landlords.append('Alex')
-print(my_cringy_landlords)
+if <condition>:
+    <do this>
+else:
+    <do this>
