@@ -77,8 +77,14 @@
 # my_cringy_landlords.append('Alex')
 # print(my_cringy_landlords)
 
+weather = input("What is the weather currently?  ")
+safety_alert = "red"
 
-if <condition>:
-    <do this>
+if weather == "rainy":
+    print("Carry an umbrella")
+elif weather == "stormy" and safety_alert == "red":
+    print ("Duck for cover!")
+elif weather == "stormy":
+    print("Stay at home and watch the storm!")
 else:
-    <do this>
+    print("Put on some sun lotion?")
