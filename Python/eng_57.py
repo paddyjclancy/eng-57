@@ -77,14 +77,27 @@
 # my_cringy_landlords.append('Alex')
 # print(my_cringy_landlords)
 
-weather = input("What is the weather currently?  ")
-safety_alert = "red"
+# weather = input("What is the weather currently?  ")
+# safety_alert = "red"
+#
+# if weather == "rainy":
+#     print("Carry an umbrella")
+# elif weather == "stormy" and safety_alert == "red":
+#     print ("Duck for cover!")
+# elif weather == "stormy":
+#     print("Stay at home and watch the storm!")
+# else:
+#     print("Put on some sun lotion?")
 
-if weather == "rainy":
-    print("Carry an umbrella")
-elif weather == "stormy" and safety_alert == "red":
-    print ("Duck for cover!")
-elif weather == "stormy":
-    print("Stay at home and watch the storm!")
-else:
-    print("Put on some sun lotion?")
+
+# dictionary = {key : value, key2: value2, key3: value3, etc...}
+my_hero = {"Name": "Bruce Wayne", "Alias": "Batman", "Location": "Gotham", "Weakness": "Parents", "Ability": "Money"}
+
+# Re-assigning a value
+# Adding a new attribute
+# Removing a value
+# del(my_hero["Ability"])
+
+# Display everything
+for key, value in my_hero.items():
+    print(key, ": ", value)
