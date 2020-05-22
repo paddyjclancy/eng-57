@@ -16,9 +16,12 @@ food_order = ["falafel", "Hummus"]
 
 
 # I need to print each item from the list
-
-print("Menu items: ", menu[0].capitalize(), ", ", menu[1].capitalize(), ", ", menu[2].capitalize(), ", ", menu[3].capitalize())
-print("This order: ", food_order[0].capitalize(), ", ", food_order[1].capitalize())
-
 # before I print I need to make them all capitalized
 #  print everything
+
+for i in menu:
+    print(i.capitalize())
+
+print("Your order:")
+for i in food_order:
+    print(i.capitalize())

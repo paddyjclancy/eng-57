@@ -99,5 +99,5 @@ my_hero = {"Name": "Bruce Wayne", "Alias": "Batman", "Location": "Gotham", "Weak
 # del(my_hero["Ability"])
 
 # Display everything
-for key, value in my_hero.items():
-    print(key, ": ", value)
+#for key, value in my_hero.items():
+#    print(key, ": ", value)

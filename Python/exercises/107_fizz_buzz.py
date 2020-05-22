@@ -15,15 +15,13 @@
 choice = int(input("Choose a number!   "))
 pen_pineapple_pen = 6
 
-
-for i in range(1, (choice + 1)):
-    print(i)
+for i in range(1, choice + 1):
     if choice == pen_pineapple_pen:
         print("You beat the game!")
         break
-    if choice !=
-    if i % 5 == 0:
+    elif i % 5 == 0:
         print("BUZZ")
-    if i % 3 == 0:
+    elif i % 3 == 0:
         print("FIZZ")
-
+    else:
+        print(i)
