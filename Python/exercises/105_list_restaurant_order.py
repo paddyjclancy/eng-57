@@ -12,16 +12,28 @@
 
 # starter code
 menu = ['falafel', 'HuMMus', 'coUScous', 'Bacalhau a Bras']
-food_order = ["falafel", "Hummus"]
+food_order = []
 
 
 # I need to print each item from the list
 # before I print I need to make them all capitalized
 #  print everything
 
+print("\nOur menu: \n")
 for i in menu:
     print(i.capitalize())
 
-print("Your order:")
-for i in food_order:
-    print(i.capitalize())
+while True:
+    order_item = input("\nWhat would you like to order? Say 'When' when complete.  ")
+
+    if order_item != "When":
+        food_order.append(order_item)
+    else:
+        print("\nYour order:\n")
+        for i in food_order:
+            print(i.capitalize())
+        break
+
+
+# for i in food_order:
+#     print(i.capitalize())

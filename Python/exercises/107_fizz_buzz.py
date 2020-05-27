@@ -11,17 +11,21 @@
 # if a multiple of 5 it return buzz
 
 
-
-choice = int(input("Choose a number!   "))
 pen_pineapple_pen = 6
 
-for i in range(1, choice + 1):
-    if choice == pen_pineapple_pen:
-        print("You beat the game!")
-        break
-    elif i % 5 == 0:
-        print("BUZZ")
-    elif i % 3 == 0:
-        print("FIZZ")
-    else:
-        print(i)
+while True:
+    choice = int(input("Choose a number!   "))
+
+    for i in range(1, choice + 1):
+        if choice == pen_pineapple_pen:
+            print("You beat the game!")
+            break
+        elif i % 15 == 0:
+            print("FUZZBUZZ")
+        elif i % 5 == 0:
+            print("BUZZ")
+        elif i % 3 == 0:
+            print("FIZZ")
+        else:
+            print(i)
+

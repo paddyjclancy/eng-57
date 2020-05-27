@@ -12,14 +12,19 @@ magic_number = 6
 # I need to ask user for input
 
 print("I'm thinking of a number....")
-choice = input("Pick a number!   ")
+
 
 # I need to check if this input matches a magic_number
+while True:
+    choice = int(input("Pick a number!   "))
 
-if int(choice) == int(magic_number):
-    print("Si- err correcto")
-else:
-    print(".....You are the error")
+    if choice == magic_number:
+        print("Si- err correcto")
+        break
+    else:
+        print("Computer says no")
+
 
 # I need to let the user know if the response was write or not
 #self five
+

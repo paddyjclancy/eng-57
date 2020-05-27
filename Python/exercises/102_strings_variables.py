@@ -22,7 +22,7 @@ print("Hello {}! Welcome to this .py file... let's go a bit further.".format(nam
 first_name = input("What is your first name?  ")
 last_name = input("What is your last name?  ")
 
-print("Thank you, {} {}, let's move on.".format(first_name.strip(), last_name.strip()))
+print("Thank you, {} {}...".format(first_name.strip(), last_name.strip()))
 
 
 # Calculate year of birth
@@ -34,4 +34,4 @@ age = " "
 age = input("{}, how old are you?  ".format(first_name))
 birth_year = 2020 - int(age)
 
-print("Wowza {}, you are {} years old, I'm therefore guessing you were born in {}! \n    ...Thank you for coming to my TedTalk".format(first_name, age, birth_year))
+print("Wowza {}, you are {} years old, I'm therefore guessing you were born in {}".format(first_name, age, birth_year))

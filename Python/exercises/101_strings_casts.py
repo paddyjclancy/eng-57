@@ -24,7 +24,7 @@ print("Hello {}! Welcome, your age is {}, your eyes are {} and your hair colour 
 # print something like: 'You said you we're 28 hence you were born in 1991!'
 
 birth_year = 2020 - int(age)
-print("You said you are {}, hence I estimate I estimate you were born in {}".format(age, birth_year))
+print("You said you are {}, hence I estimate you were born in {}".format(age, birth_year))
 
 # Extra - Section 3 - Cast your input
 print("first_name datatype = ", type(first_name))

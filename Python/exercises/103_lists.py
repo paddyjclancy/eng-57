@@ -4,7 +4,7 @@
     # It must have 5 items
     # Complete the sentence:
     # Lists are organized using: _______?????              Indeces
-example_xmas = ['walkie talkies', 'socks', 'lynx']
+#example_xmas = ['walkie talkies', 'socks', 'lynx']
 
 favourite_artists = ["Foals", "Jimi Hendrix", "Kodaline", "Tash Sultana", "Walk Off The Earth"]
 
@@ -52,4 +52,5 @@ print("POPPED LIST: ", favourite_artists)
 
 favourite_artists.append("Ben Howard")
 favourite_artists.append("Bombay Bicycle Club")
-print("Okay we appended it again, its tricky picking a select few: ", favourite_artists)
+print("Appended again, its difficult only picking a few: ", favourite_artists)
+
