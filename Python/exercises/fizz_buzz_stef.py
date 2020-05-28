@@ -30,10 +30,8 @@ while True:
 
 
 def check_if_digit_div_num(digit, num_div):
-    if digit % num_div == 0:
-        return True
-    else:
-        return False
+    return digit % num_div == 0
+
 
 def bizzbuzz(num1, num2, number):
     for digit in range(1, (int(number) + 1)):
