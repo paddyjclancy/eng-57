@@ -28,19 +28,21 @@
 #  make it run continuously
 #  consider best practices of functions - make this functional
 
-while True:
-    user_input = input("Never trust a leader who cannot dance, ask me anything.   ")
+print("*Mr Miyagi has entered the chat*")
 
-    if not user_input.startswith("Sensei"):
-        print("You are smart, but not wise - address me as Sensei.")
+while True:
+    user_input = input("M - Never trust a leader who cannot dance, ask me anything.   ")
+
+    if not user_input.title().startswith("Sensei"):
+        print("M - You are smart, but not wise - address me as Sensei.")
     else:
         if "Sensei, I am at peace" in user_input:
-            print("Sometimes, what heart knows, head forget")
+            print("M - Sometimes, what heart knows, head forget")
             break
         elif "?" in user_input:
-            print("Questions are wise, but for now... wax on, wax off!")
+            print("M - Questions are wise, but for now... wax on, wax off!")
         elif user_input.count("block") >= 1:
-            print("Remember, best block is not to be there...")
+            print("M - Remember, best block is not to be there...")
         else:
-            print("Do not lose focus. Wax on, wax off...")
+            print("M - Do not lose focus. Wax on, wax off...")
 
