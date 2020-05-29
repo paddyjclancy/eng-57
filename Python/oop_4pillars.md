@@ -25,6 +25,7 @@
 
 ## Polymorphism
 
+- Objects are adaptable to continue functionality even if differing data types
 - Subclasses are free to create their own additional behaviours even though being already defined
 - Subclass += Class
 - Class != Subclass
