@@ -2,6 +2,7 @@ from class_animal import *
 from class_cat import *
 from class_dog import *
 
+
 #    def __init__(self, name = 'Un-named member', age, fur = "", independence = "", playful = ""):
 freddie = Dog(19, 'freddie')
 brian = Dog(20, 'brian')
