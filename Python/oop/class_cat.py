@@ -1,10 +1,12 @@
 class Cat:
-    def __init__(self, name):
+    def __init__(self, name, age, fur ="", independence = "", agility = "", playful = ""):
         self.name = name.title()
         self.legs = 4
+        self.age = int(age)
         self.fur = True
         self.independence = True
         self.agility = True
+        self.playful = True
         self.family = "Feline"
 
     def purr(self):

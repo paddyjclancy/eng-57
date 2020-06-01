@@ -1,43 +1,45 @@
 from class_cat import *
 from class_dog import *
 
+#    def __init__(self, name = 'Un-named member', age, fur = "", independence = "", playful = ""):
+freddie = Dog(19, 'freddie')
+brian = Dog(20, 'brian')
+roger = Dog(14, 'roger')
+john = Dog(16, 'john')
+adam_lambert = Dog(7)
 
-freddie = Dog('freddie')
-brian = Dog('brian')
-roger = Dog('roger')
-john = Dog('john')
-adam_lambert = Dog()
+#    def __init__(self, name, age, fur ="", independence = "", agility = "", playful = ""):
+jimi = Cat('jimi', 6)
 
-jimi = Cat('jimi')
-
-print("PRINTING INSTANCE NAMES (SHOWING POLYMORPHISM)  #######################")
+print("PRINTING INSTANCE NAMES (SHOWING POLYMORPHISM)  -----------------------")
 print("Dogs: ", freddie.name, ", ", brian.name, ", ", roger.name, ", ", john.name, ", ", adam_lambert.name)
 print("Cats: ", jimi.name)
 
-print("#######################################################################")
-print("TESTING DOG FUNCTIONS  ################################################")
-print("nap()  ################################################################")
+print("-----------------------------------------------------------------------")
+print("TESTING DOG FUNCTIONS  ------------------------------------------------")
+print("nap()  ----------------------------------------------------------------")
 print(john.nap())
-print("fetch()  ##############################################################")
+print("fetch()  --------------------------------------------------------------")
 print(roger.fetch())
-print("bark()  ###############################################################")
+print("bark()  ---------------------------------------------------------------")
 print(freddie.bark())
-print("eat()  ################################################################")
+print(adam_lambert.bark())
+print("eat()  ----------------------------------------------------------------")
 print(brian.eat())
-print("walk()  ###############################################################")
+print("walk()  ---------------------------------------------------------------")
 print(roger.walk(independence = ''))
 
 
-print("#######################################################################")
-print("TESTING CAT FUNCTIONS  ################################################")
-print("Every morning as a cat owner...  alarm() ##############################")
+print("-----------------------------------------------------------------------")
+print("TESTING CAT FUNCTIONS  ------------------------------------------------")
+print("How do cats wake owners up...  alarm() --------------------------------")
 print(jimi.alarm())
-print("Does Jimi want to go on a walk?  walk()  ##############################")
+print("Do cats want to go on walks?  walk()  ---------------------------------")
 print(jimi.walk(independence = ''))
-print("purr()  ###############################################################")
+print("purr()  ---------------------------------------------------------------")
 print(jimi.purr())
-print("Give Jimi catnip...  ##################################################")
+print("Give Jimi catnip...  --------------------------------------------------")
 print(jimi.catnip())
-print("nap()  ################################################################")
+print("nap()  ----------------------------------------------------------------")
 print(jimi.nap())
 
