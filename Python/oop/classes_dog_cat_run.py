@@ -1,3 +1,4 @@
+from class_animal import *
 from class_cat import *
 from class_dog import *
 
