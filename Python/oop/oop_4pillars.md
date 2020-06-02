@@ -46,6 +46,29 @@ class Cat(Animal):
   ...
 ```
 
+```Python
+class Monster:
+
+    def __init__(self, name, age, tax_number, fur):
+        self.name = name.title()
+        self.age = int(age)
+        self.tax_number = tax_number
+        self.fur = fur
+
+    ...
+
+class MonsterStudent(Monster):
+
+    def __init__(self, name, age, tax_number, fur, student_no, year_of_study, skills=[]):
+        super().__init__(name, age, tax_number, fur)
+        self.student_no = student_no
+        self.year_of_study = int(year_of_study)
+        self.skills = skills
+
+    ...
+
+sully = MonsterStudent("sully", 23, "S-4117", "blue-purple polka dot", 10001, 1, ["Horns", "Teeth", "Claws"])
+```
 
 ## Encapsulation
 
