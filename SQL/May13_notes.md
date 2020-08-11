@@ -1,7 +1,7 @@
 ### May 13
 # Join queries
 
-Used to merge data from multiple tables, think Venn diagrams.
+Used to merge data from multiple tables around a condition, think Venn diagrams.
 
 ### Inner Join
 
@@ -20,7 +20,7 @@ Used to merge data from multiple tables, think Venn diagrams.
 LEFT OUTER
 
 - A
-- All rows in A, mathing rows in B
+- All rows in A, matching rows in B
 
 ```SQL
     SELECT customers.customerid,

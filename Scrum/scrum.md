@@ -72,4 +72,4 @@ A continuous, iterative approach to testing
 
 PLAN, DO, ACT
 
-........................................... More info on agile to come
+

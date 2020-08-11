@@ -13,3 +13,15 @@ This repo includes my basic Python knowledge:
 - print()
 - input()
 - type()
+
+### 19 May
+- Strings
+	- len()
+	- strip()
+	- count()
+	- lower() / upper()
+	- capitalize()
+	- startwith() / endwith()
+	- replace()
+- Concatenation
+- Casting
